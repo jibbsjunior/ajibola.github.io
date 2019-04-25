@@ -1,8 +1,10 @@
-/* body {
+ body {
     font-family: 'Libre Baskerville', serif;
+    /* background-image: url('traffic.jpg') */
+    
 }
 
-.nav {
+/*.nav {
     /* padding: 0px; */
     /* margin: 20px; */
     /* background: #000; */
@@ -18,37 +20,3 @@ a.visited {
     color: white;
 } 
  */
-
- body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-main {
-    flex: 1 0 auto;
-}
-nav {
-    color: #000;
-}
-.sidenav {
-    width: inherit;
-    background-color: rgba(0, 0, 0, 0.45);
-    background-image: url('img/lagos-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100%;
-}
-.wrapper {
-    width: 85%;
-    margin-left: 25px;
-}
-h3.title {
-    border-bottom: 1px solid #eee;
-}
-.img-wrapper {
-    margin-top: 40%;
-}
-i.fab {
-    margin-right: 15px;
-}
